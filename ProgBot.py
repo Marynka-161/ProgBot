@@ -4,7 +4,7 @@ import telebot
 import string
 from telebot import types
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot("1062622209:AAHn8837uftD4Gnfrmx2LqK_38tb-6tmwJY")
 
 @bot.message_handler ( commands= ['start'])
 def send_welcome ( message): 
