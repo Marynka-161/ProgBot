@@ -1,1 +1,1 @@
-worker:  python ProgBot.py
+web:  python ProgBot.py
