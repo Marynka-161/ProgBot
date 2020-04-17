@@ -1,1 +1,1 @@
-worker: python ProgBot.py --log-file 
+web: gunicron ProgBot.py
