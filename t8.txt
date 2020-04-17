@@ -1,0 +1,29 @@
+Отримання користувацького вводу
+
+  Хоча Java надає безліч різних методів для отримання користувацького вводу, об'єкт Scanner є найбільш поширеним і, можливо, самим простим у реалізації. Імпортуйте клас Scanner, щоб використовувати об'єкт Scanner, як показано тут:
+import java.util.Scanner; 
+
+Щоб використовувати клас Scanner, створіть екземпляр класу, використовуючи наступний синтаксис:
+Scanner myVar = new Scanner(System.in);
+
+ Тепер ви можете читати різні типи вхідних даних, які вводить користувач.
+ Ось деякі методи, які доступні через клас Scanner:
+Прочитати байт - nextByte ()
+Прочитати число типа short - nextShort()
+Прочитати число типа int - nextInt()
+Прочитати число типа long - nextLong ()
+Прочитати число типа float - nextFloat ()
+Прочитати число типа double - nextDouble ()
+Прочитати число типа boolean - nextBoolean ()
+Прочитати цілий рядок - nextLine ()
+Прочитайти слово - next ()
+
+  Приклад програми, використовуваної для одержання користувальницького введення:
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[ ] args) {
+    Scanner myVar = new Scanner(System.in);
+    System.out.println(myVar.nextLine());        
+  }
+}
