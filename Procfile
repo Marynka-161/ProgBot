@@ -1,1 +1,1 @@
-web: gunicron ProgBot:app
+web: gunicron ProgBot --log-file -
