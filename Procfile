@@ -1,1 +1,1 @@
-worker: python ProgBot.py
+app: python ProgBot.py
