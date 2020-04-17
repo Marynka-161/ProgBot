@@ -1,1 +1,1 @@
-web: gunicron ProgBot.py
+web: gunicron ProgBot:app
